@@ -77,10 +77,10 @@ print("----------------------------\n")
 
 print(f"Total Months: {monthcount}\n")
 
-print(f"Total: ${total_profit_losses}\n")
+print(f"Total: ${int(total_profit_losses)}\n")
 
-print(f"Average Change: ${average_change}\n")
+print(f"Average Change: ${round(average_change,2)}\n")
 
-print(f"Greatest Increase in Profits: {greatest_increase_profit_date} (${greatest_increase_profit})\n")
+print(f"Greatest Increase in Profits: {greatest_increase_profit_date} (${int(greatest_increase_profit)})\n")
 
-print(f"Greatest Decrease in Profits: {greatest_decrease_profit_date} (${greatest_decrease_profit})\n")
+print(f"Greatest Decrease in Profits: {greatest_decrease_profit_date} (${int(greatest_decrease_profit)})\n")
